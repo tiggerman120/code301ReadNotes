@@ -18,12 +18,13 @@ vh viewports height
 vmax maximum of the viewports height and width
 
 Flexible layouts do not advocate the use of fixed measurement units such as pixels or inches. viewport size chnages from user to user
-formula to adapt:
+formula to adapt:  
 The formula is based around taking the target width of an element and dividing it by the width of it’s parent element. The result is the relative width of the target element.
-
-target ÷ context = result
+**target ÷ context = result**
 
 ### Flexible Grid
+
+[grid system link for gridbox css](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 Let’s see how this formula works inside of a two column layout. Below we have a parent division with the class of container wrapping both the section and aside elements. The goal is to have have the section on the left and the aside on the right, with equal margins between the two.
 
@@ -36,7 +37,8 @@ Let’s see how this formula works inside of a two column layout. Below we have 
 
 ```
 
-Below is a flexible grid
+*Below is a flexible grid*
+**clearing erroneous error message**
 
 ```css
 
