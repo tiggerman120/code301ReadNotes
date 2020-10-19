@@ -105,3 +105,13 @@ ejsS } ejsS
 
 this created two people objects named dave and jerry renders them to the ejs index and evaluates who is who
 could probably expand on this by filling the people object with a constructor so that we can set a multitude of values to every person easily
+
+<% %> - no output
+<%= %> - outputs value
+<%- %> - outputs value (not HTML escaped)
+<%# %> - comment
+<%% - literal <%
+<% %> - no output
+<%_ %> - strip preceding whitespace
+<% _%> - trim trailing whitespace
+<% -%> - trim trailing newline
