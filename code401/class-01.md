@@ -6,6 +6,8 @@ The map array method "maps"(creates a second array with the data from the input 
 
 The reduce array method takes the input array and with the logic you provide reduces it down to whatever you specify. Whether that be an individual item or only the objects with a subclass of dog.
 
+## Sample Text
+
 ```JS
 
 let url = 'https://swapi.dev/api/people/'
@@ -28,6 +30,9 @@ async function getChars(chars) {
 getChars();
 
 ```
+
+## Explanations
+
 A promise is just an object that may return a single value later on
 
 not all callbacks are async.
