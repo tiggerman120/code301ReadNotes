@@ -1,1 +1,35 @@
 # class 1
+
+## Map and Reduce methods explanation
+
+The map array method "maps"(creates a second array with the data from the input array) over the array running whatever logic you tell it and then outputs the result as a new array.
+
+The reduce array method takes the input array and with the logic you provide reduces it down to whatever you specify. Whether that be an individual item or only the objects with a subclass of dog.
+
+```JS
+
+let url = 'https://swapi.dev/api/people/'
+function getCharacters() {
+  superagent.get(url)
+  .then(data => {
+    console.log(data.body);
+  })
+}
+
+```
+
+```JS
+
+let url = 'https://swapi.dev/api/people/'
+async function getChars(chars) {
+  let results = await superagent.get(url);
+  console.log(results.body);
+}
+getChars();
+
+```
+A promise is just an object that may return a single value later on
+
+not all callbacks are async.
+not all callback functions are doing things asynchronously
+the array.sort callback for instance is not async.
