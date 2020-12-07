@@ -31,9 +31,14 @@ getChars();
 
 ```
 
-## Explanations
+## Promises and Explanations
 
-A promise is just an object that may return a single value later on
+A promise is just an object that may return a single value later on. It may be a resolved value or a reason the value is not resolved(error).
+the promise has three states
+resolved
+rejected
+pending
+Promises are eager which just means they'll start doing what you tell it to as soon as the constructor is invoked.
 
 not all callbacks are async.
 not all callback functions are doing things asynchronously
