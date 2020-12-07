@@ -42,4 +42,5 @@ Promises are eager which just means they'll start doing what you tell it to as s
 
 not all callbacks are async.
 not all callback functions are doing things asynchronously
+async callbacks typically get information from an outside resource
 the array.sort callback for instance is not async.
