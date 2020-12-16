@@ -29,9 +29,9 @@ JSON Web Token transfers information between two bodies via the http header.<!--
 Which 3 things had you heard about previously and now have better clarity on?
 I heard about web tokens bearer tokens and json but none of this makes any more sense.
 Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
-im hoping to learn about web security so that maybe some of this makes sense. i dont have a two or three. im not really looking forward to learning new stuff when i dont understand the past two days
+im hoping to learn about web security so that maybe some of this makes sense.
 What are you most excited about trying to implement or see how it works?
-everything from monday
+everything from Monday
 Preparation Materials
 ![RBAC tutorial](https://www.youtube.com/watch?v=C4NP8Eon3cA)
 ![5 steps to RBAC](https://www.csoonline.com/article/3060780/security/5-steps-to-simple-role-based-access-control.html)
