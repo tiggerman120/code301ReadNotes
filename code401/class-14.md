@@ -16,6 +16,8 @@ a first in first out queue that allows for exactly once processing
 Pub/Sub
 Publish/subscribe messaging, or pub/sub messaging, is a form of asynchronous service-to-service communication used in serverless and microservices architectures. In a pub/sub model
 <!--https://aws.amazon.com/pub-sub-messaging/#:~:text=Publish%2Fsubscribe%20messaging%2C%20or%20pub,the%20subscribers%20to%20the%20topic. assisted with this answer-->
+web request and response cycle
+the cycle by which the user requests information from the server and the server either returns or obtains and returns that information to the user
 
 Which 3 things had you heard about previously and now have better clarity on?
 queues, stacks, and event driven applications
