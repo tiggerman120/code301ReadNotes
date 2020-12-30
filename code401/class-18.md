@@ -23,3 +23,9 @@ remote storage in a cloud system where space is partitioned to you. can be costl
 CDN
 geographically distributed network of proxy servers and their data centers. The goal is to provide high availability and performance by distributing the service spatially relative to end users
 <!--https://en.wikipedia.org/wiki/Content_delivery_network-->
+
+things I understand better
+APi's, aws dynamo
+
+things I want to implement
+I want to implement event driven systems to build a website better than its current state
